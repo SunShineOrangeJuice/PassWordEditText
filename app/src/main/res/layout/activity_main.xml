@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.test.MainActivity">
+
+    <com.test.test.LayoutPwdView
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/text_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.test.test.LayoutPwdView>
+    <TextView
+        android:id="@+id/text_pwd_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_get"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:text="点击获取密码"
+        android:layout_height="wrap_content" />
+</LinearLayout>
