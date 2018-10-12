@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private LayoutPwdView lp_pwd;
     private Button btn;
     private String pwd;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
